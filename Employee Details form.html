@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprehensive Input Form</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .section-heading {
+            background-color: #f8f9fa; /* Light gray background */
+            padding: 10px;
+            border-radius: 5px;
+        }
+        
+    </style>
+</head>
+<body>
+<div class="container mt-5">
+    <h1 class="section-heading">Personal Information</h1>
+    <form>
+        <div class="row mb-3">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Full Name" aria-label="Full Name">
+            </div>
+            <div class="col">
+                <input type="date" class="form-control" placeholder="Date of Birth" aria-label="Date of Birth">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col">
+                <select class="form-select" aria-label="Gender">
+                    <option selected disabled>Gender</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Nationality" aria-label="Nationality">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col">
+                <select class="form-select" aria-label="Marital Status">
+                    <option selected disabled>Marital Status</option>
+                    <option value="Single">Single</option>
+                    <option value="Married">Married</option>
+                    <option value="Divorced">Divorced</option>
+                </select>
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Home Address" aria-label="Home Address">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Street Address" aria-label="Street Address">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" placeholder="City" aria-label="City">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="State/Province" aria-label="State/Province">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Zip/Postal Code" aria-label="Zip/Postal Code">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Country" aria-label="Country">
+            </div>
+            <div class="col">
+                <input type="tel" class="form-control" placeholder="Primary Phone Number" aria-label="Primary Phone Number">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col">
+                <input type="tel" class="form-control" placeholder="Secondary Phone Number" aria-label="Secondary Phone Number">
+            </div>
+            <div class="col">
+                <input type="email" class="form-control" placeholder="Personal Email Address" aria-label="Personal Email Address">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="National ID Number" aria-label="National ID Number">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Passport Number (if applicable)" aria-label="Passport Number">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Driver's License Number (if applicable)" aria-label="Driver's License Number">
+            </div>
+        </div>
+
+        <h2 class="section-heading">Emergency Contact Information</h2>
+        <h3 class="section-heading">Primary Emergency Contact</h3>
+        <div class="row mb-3">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Full Name" aria-label="Full Name">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Relationship" aria-label="Relationship">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col">
+                <input type="tel" class="form-control" placeholder="Contact Number" aria-label="Contact Number">
+            </div>
+            <div class="col">
+                <input type="tel" class="form-control" placeholder="Alternate Contact Number" aria-label="Alternate Contact Number">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Address" aria-label="Address">
+            </div>
+        </div>
+
+        <h3 class="section-heading">Secondary Emergency Contact</h3>
+        <div class="row mb-3">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Full Name" aria-label="Full Name">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Relationship" aria-label="Relationship">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col">
+                <input type="tel" class="form-control" placeholder="Contact Number" aria-label="Contact Number">
+            </div>
+            <div class="col">
+                <input type="tel" class="form-control" placeholder="Alternate Contact Number" aria-label="Alternate Contact Number">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Address" aria-label="Address">
+            </div>
+        </div>
+
+        <h2 class="section-heading">Job Information</h2>
+        <div class="row mb-3">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Employee ID" aria-label="Employee ID">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Job Title" aria-label="Job Title">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Department" aria-label="Department">
+            </div>
+            <div class="col">
+                <input type="date" class="form-control" placeholder="Date of Joining" aria-label="Date of Joining">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col">
+                <select class="form-select" aria-label="Employment Type">
+                    <option selected disabled>Employment Type</option>
+                    <option value="Full-time">Full-time</option>
+                    <option value="Part-time">Part-time</option>
+                    <option value="Contract">Contract</option>
+                    <option value="Intern">Intern</option>
+                </select>
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Work Location" aria-label="Work Location">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Office Address" aria-label="Office Address">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Remote Work Details (if applicable)" aria-label="Remote Work Details">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Reporting Person" aria-label="Reporting Person">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Work Schedule" aria-label="Work Schedule">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Work Hours" aria-label="Work Hours">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Shift Details (if applicable)" aria-label="Shift Details">
+            </div>
+        </div>
+
+        <h2 class="section-heading">Educational Qualifications</h2>
+        <div class="row mb-3">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Highest Degree" aria-label="Highest Degree">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" placeholder="University/College Name" aria-label="University/College Name">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Year of Graduation" aria-label="Year of Graduation">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Certification Name" aria-label="Certification Name">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Issuing Organization" aria-label="Issuing Organization">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col">
+                <input type="date" class="form-control" placeholder="Date of Issuance" aria-label="Date of Issuance">
+            </div>
+        </div>
+
+        <h2 class="section-heading">Skills and Competencies</h2>
+        <div class="row mb-3">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Technical Skills" aria-label="Technical Skills">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Languages Known" aria-label="Languages Known">
+            </div>
+        </div>
+
+        <h2 class="section-heading">Salary Details</h2>
+        <div class="row mb-3">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Base Salary" aria-label="Base Salary">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Bonuses/Commissions" aria-label="Bonuses/Commissions">
+            </div>
+        </div>
+
+        <h2 class="section-heading">Benefits</h2>
+        <div class="row mb-3">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Health Insurance Details" aria-label="Health Insurance Details">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Life Insurance Details" aria-label="Life Insurance Details">
+            </div>
+        </div>
+
+        <h2 class="section-heading">Bank Account Details</h2>
+        <div class="row mb-3">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Bank Name" aria-label="Bank Name">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Account Number" aria-label="Account Number">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col">
+                <select class="form-select" aria-label="Account Type">
+                    <option selected disabled>Account Type</option>
+                    <option value="Savings">Savings</option>
+                    <option value="Checking">Checking</option>
+                </select>
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Secondary Bank Name" aria-label="Secondary Bank Name">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Secondary Account Number" aria-label="Secondary Account Number">
+            </div>
+            <div class="col">
+                <select class="form-select" aria-label="Secondary Account Type">
+                    <option selected disabled>Secondary Account Type</option>
+                    <option value="Savings">Savings</option>
+                    <option value="Checking">Checking</option>
+                </select>
+            </div>
+        </div>
+
+        <h2 class="section-heading">Tax Information</h2>
+        <div class="row mb-3">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Tax Identification Number" aria-label="Tax Identification Number">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Filing Status" aria-label="Filing Status">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="PAN Number" aria-label="PAN Number">
+            </div>
+        </div>
+        <div class="col-12 d">
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+          
+    </form>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+</body>
+</html>
